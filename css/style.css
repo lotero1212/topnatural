@@ -3,9 +3,6 @@
 	font-family: 'Fenix';
 	color: #732002;
 }
-
-
-
 .navbar {
 	list-style-type: none;
 	font-size: 23px;
@@ -14,10 +11,27 @@
 	font-family: 'Fenix';
 	text-align: center;
 	border-top: 1px solid #732002;
+	background-image: linear-gradient(to bottom, #fef7ed 0%, #ffffff 100%)
+}
+#bordeNavbar {
 	border-bottom: 1px solid #732002;
-	background-color:#F2C230;
+}
+.botonTN {
+	color: #732002 !important;
 }
 
+.botonTN:hover { 
+	color: #732002c9 !important;
+}
+.BuscarTN {
+	border: 1px solid #732002 !important;
+	color: #732002 !important;
+}
+
+.BuscarTN:hover {
+	background-color: #732002 !important;
+	color: #ffffff !important;
+}
 .banner {
 	text-align: center;
 	position: static;	
@@ -27,7 +41,6 @@
 	background-repeat: no-repeat;
 	background-position: auto;
 }
-
 .banner__slogan {
 	margin-top: -10px;
 	margin-bottom: auto;	
@@ -127,7 +140,6 @@
 	border-right: none !important;
 }
 
-
 .cuerpo {
 	display: flex;
 	justify-content: space-evenly;
@@ -165,7 +177,6 @@
 	transition: max-height 2s;
 	overflow: hidden;
 }
-
 .categorias li:hover ul {
 	max-height: 1000px;
 }
@@ -180,7 +191,6 @@
 .categorias li ul li:hover {
 	background-color: #e6b71e;
 }
-
 .card-img-top-TN {
 	height: 300px;
 	width: 300px;
