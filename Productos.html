@@ -3,36 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Productos | Top Natural </title>
+	<title>Top Natural | Home </title>
 	<link rel="stylesheet" href=./css/style.css>
 	<link href='https://fonts.googleapis.com/css?family=Caveat|Fenix' rel='stylesheet'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </head>
-<body> <!--Body-->
-<header>
-	<div class="banner"> <!--Banner-->
-		<div class="searchbar"> <!--SearchBar-->
-			<form action="/action_page.php">
-			<input type="search" id="¿Qué estás buscando?" name="Buscar" placeholder="¿Qué estás buscando?" size="30">
-			<button type="submit">🔎</button> 
-			</form>
-		</div>
-		<img class="banner__img" src="img/LogoTop.jpg" alt="LogoTop" width="250px" height="198px">
-		<h3 class="banner__slogan">Alimentación Saludable</h3>	
-	</div>
-</header>
-<section class="menu">
+	<body>
+		<header>
+			<div class="banner">
+				<img class="banner__img" src="img/LogoTop.jpg" alt="LogoTop" width="250px" height="198px">
+				<h3 class="banner__slogan">Alimentación Saludable</h3>	
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+					  <a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item active">
+					  <a class="nav-link" href="Productos.html">Productos <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="Quienes_Somos.html">¿Quiénes somos?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contactenos.html">Contáctenos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Combos.html">Combos</a>
+					</li>
+				  </ul>
+				  <form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</div>
+			  </nav>
+		</header>
 
-	
-	<div>
-		<div class="navbar"> <!--NavBar-->
-				<div class="navbar__seccion"><a class="navbar__hlink" href="index.html">Home</a></div> 
-				<div class="navbar__seccion"><a class="navbar__hlink" href="Productos.html">Productos</a></div> 
-				<div class="navbar__seccion"><a class="navbar__hlink" href="Quienes_Somos.html">¿Quiénes somos?</a></div> 
-				<div class="navbar__seccion"><a class="navbar__hlink" href="Contactenos.html">Contáctenos</a></div>
-				<div class="navbar__seccion"><a class="navbar__hlink" href="Combos.html">Combos</a></div>
-		</div>
-	</div>
-</section>
 
 
 	<h2 class="cuerpo__titulo">Productos</h2>
@@ -301,27 +316,26 @@
 
 		
 
-<footer class="footer">
-	
+	<footer class="footer">
+		
+		<div class="footer__item">
+			<p>Av. Pedro Goyena 1542, Esq. Achával Caballito - CABA-CP 1406</p>
+			<br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0535758867954!2d-58.451652284256625!3d-34.62808636629584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb443abf9471%3A0x1469e38fa581f725!2sTop%20Natural!5e0!3m2!1ses!2sar!4v1621751271150!5m2!1ses!2sar" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			
+		</div>
+	<br>
 	<div class="footer__item">
-		<p>Av. Pedro Goyena 1542, Esq. Achával Caballito - CABA-CP 1406</p>
-		<br>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0535758867954!2d-58.451652284256625!3d-34.62808636629584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb443abf9471%3A0x1469e38fa581f725!2sTop%20Natural!5e0!3m2!1ses!2sar!4v1621751271150!5m2!1ses!2sar" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-		
-	</div>
-<br>
-	<div class="footer__item">
-		
-		<a href="https://www.instagram.com/topnatural_caballito/"> <img src="img/logoig.jpg" alt="Instagram" width="32" height="32"></a> 
-		<a href="https://www.facebook.com/TopNaturalCaballito"> <img src="img/fb.jpg" alt="Facebook" width="32" height="32"></a>
-		<a href="https://wa.me/5491154991236"> <img src="img/wsp.jpg" alt="Whatsapp" width="32" height="32"></a>
-		<a href="mailto:goyena@topnatural.com.ar"> <img src="img/mail.png" alt="Mail" width="32" height="32"></a>
-		<a href="tel:+541175145064"> <img src="img/tel.png" alt="Telefono" width="32" height="32"></a>
-		<a href="https://goo.gl/maps/vWrU5cRMs2yRu17w8"><img src="img/maps.png" alt="Ubicación" width="32" height="32"></a>
-		
-	</div>
 
-</footer>
+		<a href="https://www.instagram.com/topnatural_caballito/"> <img src="img/logoig.jpg" alt="Instagram" width="auto" height="30"></a> 
+		<a href="https://www.facebook.com/TopNaturalCaballito"> <img src="img/fb.jpg" alt="Facebook" width="auto" height="32"></a>
+		<a href="https://wa.me/5491154991236"> <img src="img/wsp.jpg" alt="Whatsapp" width="auto" height="32"></a>
+		<a href="mailto:goyena@topnatural.com.ar"> <img src="img/mail.png" alt="Mail" width="auto" height="32"></a>
+		<a href="tel:+541175145064"> <img src="img/tel.png" alt="Telefono" width="auto" height="32"></a>
+		<a href="https://goo.gl/maps/vWrU5cRMs2yRu17w8" ><img class="footer__item--last"src="img/maps.png" alt="Ubicación" width="auto" height="32" ></a>
+		
+	</div>
+	</footer>        
 </body>
 </html>
 
