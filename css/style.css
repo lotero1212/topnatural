@@ -244,3 +244,8 @@
 .descInicial {
 	background-image: linear-gradient(to bottom, #ffffff, #fbd9a6);
 }
+
+.botonNuevo {
+	font-size: 15px !important;
+	margin-left: 100px;
+}
