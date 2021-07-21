@@ -1,0 +1,21 @@
+.footer	{
+	display: flex;
+	background-image: linear-gradient(to bottom, #F2C230, #fbd9a6);
+	font-family: 'Fenix';
+	font-size: 18px;
+	text-align: center;
+	color: #732002;
+	flex-direction: column;
+}
+.footer__item {
+	margin: 20px;
+    a img {
+        border-right: 2px solid #732002;
+        padding: 0 5px;
+    }
+}
+
+
+.footer__item--last {
+	border-right: none !important;
+}

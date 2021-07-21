@@ -1,0 +1,28 @@
+.contacto {
+	display: grid;
+	grid-template-areas: 
+	"redes formulario";
+	grid-template-rows: 100px 500px;
+	grid-template-columns: 400px 300px;
+	padding-left: 20px;
+	justify-content: center;
+}
+.cuerpo__redes {
+	display: flex;
+	flex-direction: column;
+	grid-area: redes;
+	margin-top: 100px;
+        a {
+        text-decoration: none;
+        color: #732002;
+        font-family: 'Fenix';
+        font-size: 26px; 
+    }
+}
+
+
+.cuerpo__formularioContacto {
+	text-align: center;
+	font-family: 'Fenix';font-size: 15px; color: #732002;
+	grid-area: formulario;
+}

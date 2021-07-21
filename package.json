@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap_top",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotero1212/topnatural.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotero1212/topnatural/issues"
+  },
+  "homepage": "https://github.com/lotero1212/topnatural#readme"
+}
