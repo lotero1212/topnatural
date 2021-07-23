@@ -49,6 +49,45 @@
 		</header>
 <h2 class="cuerpoSubtitulo">Contáctenos</h2>
 <section class="contacto">
+	<div class="cuerpo__formularioContacto" >
+		<form action="enviar.php" method="POST" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Dejanos tu consulta y nos pondremos en contacto:</legend>
+				<div class="conteiner-form">
+					<label for="nombreyapellido"> Nombre y Apellido</label>
+					<input type="text" name="nombreyapellido" maxlength="100">
+				</div>
+				<div class="conteiner-form">
+					<label for="Mail">Mail</label>
+					<input type="Mail" name="email" maxlength="100">
+				</div>
+				<div class="conteiner-form">
+					<label for="Teléfono">Teléfono</label>
+					<input type="Teléfono" name="telefono" maxlength="100">
+				</div>
+				<div class="conteiner-flex">
+					<textarea name="Consulta" id="#" cols="40" rows="10" placeholder="Escribe tu consulta aquí"></textarea>
+				</div>
+
+				<div class="conteiner-form">
+					<Label>Tipo de Consulta</Label>
+					<select name="Tipodeconsulta">
+						<option value="Cotización">Cotización</option>
+						<option value="Consulta de Stock">Consulta de Stock</option>
+						<option value="Contacto Proveedores">Contacto Proveedores</option>
+					</select>
+				</div>
+				<div class="conteiner-form-ESP">
+					<label>Recibir novedades por correo electrónico</label> 
+					<input type="checkbox" name="publicidad" value="Recibir novedades por correo electrónico">
+				</div>
+
+				<input type="submit" name="submit" value="Enviar">
+				<input type="reset" name="reset" value="Limpiar">
+			</fieldset>
+		</form>
+	</div>
+	
 	<div class="cuerpo__redes">
 		
 		<a href="https://www.instagram.com/topnatural_caballito/"><img src="img/logoig.jpg" alt="Instagram" width="26" height="26"> @topnaturalcaballito</a>
@@ -58,37 +97,6 @@
 		<a href="tel:+541175145064"> <img src="img/tel.png" alt="Telefono" width="26" height="26"> 7514 - 5064</a>
 		<a href="https://goo.gl/maps/vWrU5cRMs2yRu17w8"><img src="img/maps.png" alt="Ubicación" width="26" height="26"> Av. Pedro Goyena 1542</a>
 		
-	</div>	
-
-	<div class="cuerpo__formularioContacto" >
-		<form action="enviar.php" method="POST" enctype="multipart/form-data">
-			<fieldset>
-				<legend>Dejanos tu consulta y nos pondremos en contacto:</legend>
-				<label for="nombreyapellido"> Nombre y Apellido</label>
-				<input type="text" name="nombreyapellido" maxlength="100">
-			<br>
-				<label for="Mail">Mail</label>
-				<input type="Mail" name="email" maxlength="100">
-			<br>
-				<label for="Teléfono">Teléfono</label>
-				<input type="Teléfono" name="telefono" maxlength="100">
-			<br>
-				<textarea name="Consulta" id="" cols="30" rows="10" placeholder="Escribe tu consulta aquí"></textarea>
-			<br>
-				<Label>Tipo de Consulta</Label>
-				<select name="Tipodeconsulta">
-					<option value="Cotización">Cotización</option>
-					<option value="Consulta de Stock">Consulta de Stock</option>
-					<option value="Contacto Proveedores">Contacto Proveedores</option>
-				</select>
-			<br>
-				<label>Recibir novedades por correo electrónico</label>
-				<input type="checkbox" name="publicidad" value="Recibir novedades por correo electrónico">
-			<br>
-				<input type="submit" name="submit" value="Enviar">
-				<input type="reset" name="reset" value="Limpiar">
-			</fieldset>
-		</form>
 	</div>	
 </section>
 

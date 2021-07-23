@@ -1,17 +1,17 @@
 .contacto {
-	display: grid;
-	grid-template-areas: 
-	"redes formulario";
-	grid-template-rows: 100px 500px;
-	grid-template-columns: 400px 300px;
-	padding-left: 20px;
-	justify-content: center;
-}
-.cuerpo__redes {
 	display: flex;
 	flex-direction: column;
-	grid-area: redes;
-	margin-top: 100px;
+	align-items:center;
+	justify-content: center;
+	padding-left: 20px;
+}
+.cuerpo__redes {
+	border: 2px solid #732002;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	margin: 50px auto;
+	padding: 10px;
         a {
         text-decoration: none;
         color: #732002;
@@ -20,9 +20,28 @@
     }
 }
 
-
 .cuerpo__formularioContacto {
 	text-align: center;
 	font-family: 'Fenix';font-size: 15px; color: #732002;
-	grid-area: formulario;
+	
+}
+
+.conteiner-form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.conteiner-form-ESP {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+@media (min-width: 768px) {
+	form {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
