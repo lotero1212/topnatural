@@ -3,13 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Top Natural | Home </title>
+	<title>Top Natural | Contacto </title>
 	<link rel="stylesheet" href=./css/style.css>
 	<link href='https://fonts.googleapis.com/css?family=Caveat|Fenix' rel='stylesheet'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<meta name="description" content="Dietetica de barrio, ubicada en caballito ofrece productos saludables, apto celíaco, veganos, vegetarianos, fit.">
+    <meta name="keywords" content="dietetica, caballito, frutos secos, fit, vegano, vegetariano, TACC">
 </head>
 	<body>
 		<header>
@@ -43,29 +45,62 @@
 				</div>
 			  </nav>
 		</header>
-
-	<h2 class="cuerpoSubtitulo">Combos</h2>
-
-		<div class="carrouselProductos">
-			<div class="container contenedorTN">
-				<h3 class="titProd">Mix Energético Deluxe</h3>
-				<p class="descprod">	
-					<ul>
-					<li>100g Almendras Non Pareil</li>
-					<li>100g Nueces Mariposa</li>
-					<li>100g Castañas de Cajú Tostadas</li>
-					<li>100g Avellanas</li>
-					</ul>	
-				</p>
-				<div class="card cardTN">
-				<img class="card-img-top-TN img-thumbnail" src="img/frutossecos.jpg" alt="Card image cap">
-				<p class="card-body-TN">Precio $475</p>
+<h2 class="cuerpoSubtitulo">Contáctenos</h2>
+<section class="contacto">
+	<div class="cuerpo__formularioContacto" >
+		<form action="enviar.php" method="POST" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Dejanos tu consulta y nos pondremos en contacto:</legend>
+				<div class="conteiner-form">
+					<label for="nombreyapellido"> Nombre y Apellido</label>
+					<input type="text" name="nombreyapellido" maxlength="100">
 				</div>
-			</div> 
-		</div>	
+				<div class="conteiner-form">
+					<label for="Mail">Mail</label>
+					<input type="Mail" name="email" maxlength="100">
+				</div>
+				<div class="conteiner-form">
+					<label for="Teléfono">Teléfono</label>
+					<input type="Teléfono" name="telefono" maxlength="100">
+				</div>
+				<div class="conteiner-flex">
+					<textarea name="Consulta" id="#" cols="40" rows="10" placeholder="Escribe tu consulta aquí"></textarea>
+				</div>
+
+				<div class="conteiner-form">
+					<Label>Tipo de Consulta</Label>
+					<select name="Tipodeconsulta">
+						<option value="Cotización">Cotización</option>
+						<option value="Consulta de Stock">Consulta de Stock</option>
+						<option value="Contacto Proveedores">Contacto Proveedores</option>
+					</select>
+				</div>
+				<div class="conteiner-form-ESP">
+					<label>Recibir novedades por correo electrónico</label> 
+					<input type="checkbox" name="publicidad" value="Recibir novedades por correo electrónico">
+				</div>
+
+				<input type="submit" name="submit" value="Enviar">
+				<input type="reset" name="reset" value="Limpiar">
+			</fieldset>
+		</form>
+	</div>
 	
-    <footer class="footer">
-	
+	<div class="cuerpo__redes">
+		
+		<a href="https://www.instagram.com/topnatural_caballito/"><img src="img/logoig.jpg" alt="Instagram" width="26" height="26"> @topnaturalcaballito</a>
+		<a href="https://www.facebook.com/TopNaturalCaballito"> <img src="img/fb.jpg" alt="Facebook" width="26" height="26"> Top Natural Caballito</a>
+		<a href="https://wa.me/5491154991236"> <img src="img/wsp.jpg" alt="Whatsapp" width="26" height="26"> 11 5499 1236</a>
+		<a href="mailto:goyena@topnatural.com.ar"> <img src="img/mail.png" alt="Mail" width="26" height="26"> goyena@topnatural.com.ar</a>
+		<a href="tel:+541175145064"> <img src="img/tel.png" alt="Telefono" width="26" height="26"> 7514 - 5064</a>
+		<a href="https://goo.gl/maps/vWrU5cRMs2yRu17w8"><img src="img/maps.png" alt="Ubicación" width="26" height="26"> Av. Pedro Goyena 1542</a>
+		
+	</div>	
+</section>
+
+
+	<footer class="footer">
+		
 		<div class="footer__item">
 			<p>Av. Pedro Goyena 1542, Esq. Achával Caballito - CABA-CP 1406</p>
 			<br>
@@ -74,7 +109,7 @@
 		</div>
 	<br>
 	<div class="footer__item">
-	
+
 		<a href="https://www.instagram.com/topnatural_caballito/"> <img src="img/logoig.jpg" alt="Instagram" width="auto" height="30"></a> 
 		<a href="https://www.facebook.com/TopNaturalCaballito"> <img src="img/fb.jpg" alt="Facebook" width="auto" height="32"></a>
 		<a href="https://wa.me/5491154991236"> <img src="img/wsp.jpg" alt="Whatsapp" width="auto" height="32"></a>
