@@ -13,12 +13,12 @@
   border-bottom: 1px solid #732002;
 }
 
-.botonTN {
-  color: #732002 !important;
+.navbar-light .navbar-nav .nav-link {
+  color: #732002;
 }
 
-.botonTN:hover {
-  color: #732002c9 !important;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #732002c9;
 }
 
 .banner {
@@ -42,14 +42,13 @@
 .cuerpo__titulo {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 40px !important;
-  font-weight: 10px;
+  font-size: 40px;
   color: #732002;
   margin: 0px auto 20px auto;
 }
 
 .cuerpo__textos {
-  font-family: "Fenix !important";
+  font-family: "Fenix";
   font-size: 20px;
   color: #732002;
   text-align: center;
@@ -88,6 +87,7 @@
 .carrouselProductos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .descInicial {
@@ -136,13 +136,13 @@
   border: #732002 2px solid;
   border-radius: 10px;
   background-color: #E6E9EE;
-  margin: 20px;
-  max-width: 300px !important;
+  margin: 5px;
+  max-width: 300px;
 }
 
 .cardTN {
-  border: none !important;
-  background-color: #E6E9EE !important;
+  border: none;
+  background-color: #E6E9EE;
 }
 
 .descprod {
@@ -154,7 +154,7 @@
 }
 
 .botonNuevo {
-  font-size: 15px !important;
+  font-size: 15px;
   margin-left: 100px;
 }
 

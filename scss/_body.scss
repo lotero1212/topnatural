@@ -1,12 +1,12 @@
 .cuerpo__titulo {
 	text-align: center;
-	font-family: 'Raleway', sans-serif; font-size: 40px !important;
-	font-weight: 10px;
+	font-family: 'Raleway', sans-serif; 
+	font-size: 40px;
 	color: #732002;
 	margin: 0px auto 20px auto;
 }
 .cuerpo__textos {
-	font-family: 'Fenix !important';
+	font-family: 'Fenix';
 	font-size: 20px; 
 	color: #732002;
 	text-align: center;
@@ -44,6 +44,7 @@
 .carrouselProductos {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .descInicial {
 	background-image: linear-gradient(to bottom, #ffffff, #fbd9a6);
